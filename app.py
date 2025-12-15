@@ -34,7 +34,20 @@ if menu == "Início":
         st.markdown("[Acesse o site do INE](https://www.ine.cv)")
         st.image("Ine.jpg")
 
-if menu == "Widgets"
+if menu == "Widgets":
+    bt = st.button("Dê um Clique!")
+
+    if bt:
+        sd = st.slider(
+            "Mova o ponto do Slider!",
+            min_value=25,
+            max_value=35,
+            value=30,
+            step=1
+        )
+
+        texto = f"Eu tenho {sd} anos!"
+        st.success(texto)
 
 
 
