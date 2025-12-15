@@ -26,5 +26,10 @@ with st. sidebar:
     st.table(df)
   else:
     st.info("🎰 Carregue um ficheiro Excel para começar")
-                              
+
+if menu == "Início":
+  with st.expander("**Sobre o Instituto Nacional de Estatística**"): 
+    st. write ("Acesse o site www.ine.cv")
+    st.image(
+    
                  
