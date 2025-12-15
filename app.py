@@ -72,6 +72,7 @@ if menu == "Gráficos Estáticos":
         ax.set_title("Gráfico Circular")
         ax.axis("equal")
         st.pyplot(fig)
+        
 
   
 
