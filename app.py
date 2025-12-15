@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-#import pandas as pd
+import pandas as pd
 #import matplotlib.pyplot as plt
 import openpyxl
 st.header("Introduzindo os Elementos do Streamlit")
