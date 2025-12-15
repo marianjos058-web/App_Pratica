@@ -1,1 +1,1 @@
-import streamili as st
+import streamilit as st
