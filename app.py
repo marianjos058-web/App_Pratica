@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 import pandas as pd
-
+import matplotlib.pyplot as plt
 
 st.header("Introduzindo os Elementos do Streamlit")
 
@@ -55,7 +55,6 @@ if menu == "Widgets":
 
 if menu == "Gráficos Estáticos":
     col1, col3 = st.columns([0.45, 0.45])  # duas colunas iguais, ajuste as proporções
-
     with col1:
         st.subheader("Coluna 1")
         dados_hist = [3,9,5,12,6,7,5,10,6,10]
