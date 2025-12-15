@@ -27,12 +27,16 @@ with st.sidebar:
         except Exception as e:
             st.error(f"Erro ao ler o arquivo: {e}")
     else:
-        st.info("📂 Carregue um ficheiro Excel para começar")
+        st.info("🎰 Carregue um ficheiro Excel para começar")
 
 if menu == "Início":
     with st.expander("**Sobre o Instituto Nacional de Estatística**"):
         st.markdown("[Acesse o site do INE](https://www.ine.cv)")
         st.image("Ine.jpg")
+
+if menu == "Widgets"
+
+
 
     
                  
