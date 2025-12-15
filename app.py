@@ -13,8 +13,7 @@ menu = option_menu(menu_title="Menu",
 with st. sidebar:
      st.success("**UPLOUD DE DADOS**")
 
-     dados = st.file_uploader
-         ("Carregue ...",
+     dados = st.file_uploader("Carregue ...",
           type=["xlsl","xls"])
     if dados:
       def carregar_dados(dados):
